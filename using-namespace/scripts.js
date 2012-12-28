@@ -22,9 +22,22 @@ Stuff = (function(window, undefind){
         };
     }
 
+    function loadStyle(url){
+        var lnk = document.createElement("link");
+        lnk.href= url;
+        lnk.rel = "stylesheet";
+        lnk.type = "text/css";
+
+        var script = document.getElementsByTagName("script")[0];
+        script.parentNode.insertBefore(lnk,script);
+
+
+    }
+
     function alertMe(){
         $("#sendMe").click(function(){
             var inp = document.getElementById("alrt");
+            loadStyle("style.css");
             alert(inp.value);
         });
     }

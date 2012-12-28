@@ -1,0 +1,8 @@
+h1 {
+    color: red;
+}
+
+input[type='submit'] {
+    background:blue;
+    color:white;
+}
