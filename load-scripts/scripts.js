@@ -1,6 +1,6 @@
 var script = document.createElement("script");
     script.async = true;
-    script.src = "http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js";
+    script.src = "http:////ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js";
 
 
 var entry = document.getElementsByTagName("script")[0];
